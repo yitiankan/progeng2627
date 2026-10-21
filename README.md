@@ -1,4 +1,4 @@
-Programming for Engineers 2026–27
+# Programming for Engineers 2026–27
 
 My C++ work for Imperial College London's *Programming for Engineers* module (EEE, Year 1).
 Course site: https://imperialcollegelondon.github.io/progeng/
