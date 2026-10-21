@@ -11,6 +11,7 @@ Course site: https://imperialcollegelondon.github.io/progeng/
 ### Week 2
 | Section | Exercise | File | What I learnt |
 |---|---|---|---|
+| 1.4 | Multiply two numbers | [1.4_multiply.cpp](Autumn26/week2/1.4_multiply.cpp) | |
 | 2.2 | Leap year | [2.2_leap_year.cpp](Autumn26/week2/2.2_leap_year.cpp) | |
 | 2.3 | Temperature conversion | [2.3_temperature_conversion.cpp](Autumn26/week2/2.3_temperature_conversion.cpp) | |
 
@@ -19,3 +20,8 @@ Course site: https://imperialcollegelondon.github.io/progeng/
 |---|---|---|---|
 | 12 Oct | Valid triangle | [12oct_triangle.cpp](Autumn26/week3/12oct_triangle.cpp) | |
 | 12 Oct | Knight move | [12oct_knight_move.cpp](Autumn26/week3/12oct_knight_move.cpp) | |
+
+### Week 4
+| Section | Exercise | File | What I learnt |
+|---|---|---|---|
+| 19 Oct | The Knight's Escape | [19oct_knights_escape.cpp](Autumn26/week4/19oct_knights_escape.cpp) | |
