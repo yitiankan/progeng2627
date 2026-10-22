@@ -21,6 +21,7 @@ Course site: https://imperialcollegelondon.github.io/progeng/
 | 12 Oct | Valid triangle | [12oct_triangle.cpp](Autumn26/week3/12oct_triangle.cpp) | |
 | 12 Oct | Knight move | [12oct_knight_move.cpp](Autumn26/week3/12oct_knight_move.cpp) | |
 | 3.4 | Maximum and minimum so far | [3.4_max_min.cpp](Autumn26/week3/3.4_max_min.cpp) | |
+| 3.4 | Collatz conjecture | [3.4_collatz.cpp](Autumn26/week3/3.4_collatz.cpp) | |
 
 ### Week 4
 | Section | Exercise | File | What I learnt |
