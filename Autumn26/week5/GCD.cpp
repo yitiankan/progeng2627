@@ -1,7 +1,7 @@
 #include <iostream>
 
 int gcd(int a,int b) {
-    int rem, quotient,total=1;
+    int rem;
     while (b!=0)
     {
         rem = a % b;
@@ -27,16 +27,33 @@ int tointnum(int a){
     }
     return total;
 }
-int main() {
-    int a,total=0,count=0;
-    std::cout << "Enter one number: ";
-    std::cin>>a;
+int depth(int a) {
+    int total=0,count=0;
     while (a!=1){
         a=tointnum(a);
         total=total+a;
         count++;
+    }
+    return count;
+}
+int main(){
+    int a,b,digit;
+    double peak=0,max=0;
+    std::cout << "Enter two numbers: ";
+    std::cin >> a >> b;
+    for (a=a+1;a<=b-1;a++){   
+        peak=(depth(a) - depth(a - 1) + depth(a) - depth(a + 1))/2.0;
+        if (peak>max){
+            max=peak;
+            digit=a;
+        }
+        peak=0;
 
     }
-    std::cout << "The total is: " << total << std::endl;
-    return 0;
+    if (max==0){
+        std::cout << "No peak found in the given range." << std::endl;
+        return -1;
+    }
+    std::cout << "The maximum peak is: " << max << std::endl;
+    std::cout << "The digit is: " << digit << std::endl;
 }
