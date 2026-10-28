@@ -1,4 +1,6 @@
 *.exe
 desktop.ini
+# scratch file made by the Code Runner extension
+tempCodeRunnerFile.*
 # personal practice, not Imperial coursework
 personal/
