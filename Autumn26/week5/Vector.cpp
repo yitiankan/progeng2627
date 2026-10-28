@@ -3,7 +3,7 @@
 
 int main(){
     int i,n,s,count=0;
-    std::vector<int> v;
+    std::vector<int> v,d;
     std::cout<< "Enther a number:";
     std::cin>>n;
     for (i=0;i<n;i++){
@@ -16,7 +16,13 @@ int main(){
     for (i=0;i<n;i++){
         if (v[i]==s){
             count++;
+            d.push_back(i);
+
+
         }
     }
     std::cout<<"the number of "<<s<<" is "<<count<<std::endl;
+    for (i=0;i<count;i++){
+        std::cout<<"The index of the number is"<<d[i]<<std::endl;
+    }
 }
